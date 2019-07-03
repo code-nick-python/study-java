@@ -1,8 +1,9 @@
 //code from https://www.runoob.com/java/java-basic-datatypes.html
 public class BasicTypes {
     public static void main(String []args) {
-		String[] types={"Byte","Short","Integar","Long","Float","Double","Character"};
-		// byte  
+        String[] types={"Byte","Short","Integar","Long","Float","Double","Character"};
+
+        //byte
         System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);  
         System.out.println("包装类：java.lang.Byte");  
         System.out.println("最小值：Byte.MIN_VALUE=" + Byte.MIN_VALUE);  
